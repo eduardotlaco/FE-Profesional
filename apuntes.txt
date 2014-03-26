@@ -1,0 +1,23 @@
+javascript  (david avellaneda)
+
+Agenda
+
+-	JS: las partes buenas
+-	JS orientado a objetos
+-	Closures, Mixins, Objetos, Prototipos
+-	
+
+JavaScript: Good Parts? (Libro)
+
+2% hermosas caracteristicas
+10% feas caracteristicas
+
+
+var a=5, b=10
+
+function noGlobal( a ){
+	"use strict";
+	b = 3
+	a = a * 2
+	return a * b
+}
